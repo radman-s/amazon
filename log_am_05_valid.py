@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(1, '')
 from pages.drivers import Drivers
 from pages.amazon_page import AmazonPage
 
