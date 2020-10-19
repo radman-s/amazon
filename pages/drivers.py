@@ -8,3 +8,9 @@ class Drivers:
         driver = webdriver.Chrome(options=options)
         return driver
 
+    def firefox(self):
+        driver = webdriver.Firefox()
+        driver.maximize_window()
+        return driver
+
+
